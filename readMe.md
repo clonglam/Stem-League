@@ -16,8 +16,10 @@ This system included two parts, one web controling system and stem learning hard
 
 To provide a good controling response, low-latency is needed. We designed to use Socket.io to pass the data. When the user move the control stick in the dashboard, the front in will pass the data to the component via WebSockets. and it created nearly instant response. Advanced by the socket.io, it provide a low-latency and safety environment for user.
 
+![StemRing_Lowlatency](https://www.clong.pro/assets/blog/stem-league/move_Left.gif)
+
 ## Secuity
 
 We need to encsure the user is authorized users. Users are required login before using the system. Before sending the data to the hardware, data are need to pass the auth middleware first. We can ensure only auorized users can control those hardware but not anyone.
-![StemRing_Lowlatency](/assets/blog/stem-league/move_Left.gif)
-![webDashboard](https://user-images.githubusercontent.com/86845927/183285445-93707b2d-1de7-4f67-8c3f-8a72448597ad.png)
+
+![webDashboard]([https://user-images.githubusercontent.com/86845927/183285445-93707b2d-1de7-4f67-8c3f-8a72448597ad.png](https://www.clong.pro/assets/blog/stem-league/stemring_anim.gif))
